@@ -1,6 +1,6 @@
-/*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
-*/
+/** @format */
+
+/*! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1518,6 +1518,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1556,6 +1560,10 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-8 {
+  border-width: 8px;
 }
 
 .border-x {
@@ -1608,9 +1616,33 @@ video {
   border-style: none;
 }
 
+.border-gray-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-Light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 226 253 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-bg-sidebar-mobile {
+  background-image: url('../assets/images/bg-sidebar-mobile.svg');
 }
 
 .decoration-slice {
@@ -1631,6 +1663,10 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-fixed {
@@ -1723,6 +1759,21 @@ video {
      object-fit: scale-down;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1777,6 +1828,16 @@ video {
 
 .align-super {
   vertical-align: super;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1851,6 +1912,15 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-8 {
+  line-height: 2rem;
+}
+
+.text-Marine {
+  --tw-text-opacity: 1;
+  color: rgb(2 41 90 / var(--tw-text-opacity));
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -1858,6 +1928,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-Coolgray {
+  --tw-text-opacity: 1;
+  color: hsl(231 11% 63% / var(--tw-text-opacity));
 }
 
 .underline {
